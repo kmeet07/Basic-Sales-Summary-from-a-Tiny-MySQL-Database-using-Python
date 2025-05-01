@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 # Connect to MySQL database
 conn = mysql.connector.connect(
     host='localhost',
-    user='root',
-    password='3503',
+    user='your_username',
+    password='your_password',
     database='sales_db'
 )
 
